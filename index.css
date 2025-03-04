@@ -1,5 +1,50 @@
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
 }
 
+.container {
+  margin: 0 auto;
+  width: 400px;
+  background-color: #ffffff;
+}
+
+h5,
+h6 {
+  margin: 0;
+}
+
+.name img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 5px 0 0;
+}
+
+.name-data {
+  display: flex;
+  margin: 0 10px;
+}
+
+.user-data {
+  margin: 5px 0;
+}
+
+.img-data img {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.icon-data img {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+}
+
+.icon-data {
+  text-align: left;
+}
