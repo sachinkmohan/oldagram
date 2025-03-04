@@ -31,5 +31,13 @@ const posts = [
 
 const userNameEl = document.getElementById("user-name");
 const postLocationEl = document.getElementById("post-location");
+const likesEl = document.getElementById("likes");
+
 userNameEl.textContent = posts[0].name;
 postLocationEl.textContent = posts[0].location;
+likesEl.textContent = posts[0].likes + " likes";
+
+const userCommentNameEl = document.getElementById("user-comment-name");
+const commentEl = document.getElementById("comment");
+userCommentNameEl.textContent = posts[0].username;
+commentEl.textContent = posts[0].comment;

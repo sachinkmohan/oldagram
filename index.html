@@ -10,7 +10,16 @@
   </head>
   <body>
     <div class="container">
-      <img src="images/logo.png" />
+      <section class="header">
+        <img src="images/logo.png" class="logo-img" alt="oldagram logo" />
+        <img
+          src="images/user-avatar.png"
+          class="user-avatar"
+          alt="user avatar"
+        />
+      </section>
+
+      <div class="divider"></div>
 
       <section class="name">
         <div class="name-data">
@@ -33,6 +42,14 @@
         <img src="images/icon-heart.png" alt="heart icon" />
         <img src="images/icon-comment.png" alt="comment icon" />
         <img src="images/icon-dm.png" alt="direct message icon" />
+      </section>
+
+      <section class="user-reactions">
+        <p id="likes"></p>
+        <div class="comment">
+          <p id="user-comment-name"></p>
+          <p id="comment"></p>
+        </div>
       </section>
     </div>
 
